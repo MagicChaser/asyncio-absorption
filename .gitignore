@@ -1,0 +1,12 @@
+# IDE/编辑器配置
+.idea/
+.vscode/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+.mypy_cache/
+
+# Poetry lock（学习项目可忽略）
+poetry.lock
