@@ -1,6 +1,6 @@
 from collections.abc import Iterable, Iterator
 from typing import TYPE_CHECKING, TypeVar, Protocol, Any
-import pytest
+import pytest # type: ignore
 
 
 class SupportsLessThan(Protocol):
@@ -20,7 +20,7 @@ def test_top_tuple() -> None:
     
     length = 3
     expected = [(6, 'Banana'), (5, 'Mango'), (5, 'Apple')]
-    res = top(series, length)
+    res = top(series, length) # type: ignore
     if TYPE_CHECKING:
         reveal_type(series)
         reveal_type(expected)
@@ -32,7 +32,7 @@ def test_top_objects_error() -> None:
     if TYPE_CHECKING:
         reveal_type(series)
     with pytest.raises(TypeError) as excinfo:
-        top(series, 3)
+        top(series, 3) # type: ignore
     assert "'<' not supported" in str(excinfo.value)
     
         
