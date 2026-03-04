@@ -1,0 +1,12 @@
+2026-03-03 17:30:22 [INFO] root:42 - 日志系统初始化完成：终端 + 文件双输出
+2026-03-03 17:30:22 [INFO] root:70 - 正常INFO-终端、文件应该都有。
+2026-03-03 17:30:22 [DEBUG] root:73 - 临时DEBUG-终端、文件应该都有。
+2026-03-03 17:30:22 [INFO] root:74 - 临时INFO-终端、文件应该都有。
+2026-03-03 17:55:35 [INFO] root:42 - 日志系统初始化完成：终端 + 文件双输出
+2026-03-03 17:55:35 [INFO] root:68 - 正常INFO-终端、文件应该都有。
+2026-03-03 17:55:35 [DEBUG] root:71 - 临时DEBUG-终端、文件应该都有。
+2026-03-03 17:55:35 [INFO] root:72 - 临时INFO-终端、文件应该都有。
+2026-03-03 17:58:36 [INFO] /home/blackcat/asyncio-absorption/utils/logging_utils.py:42 - 日志系统初始化完成：终端 + 文件双输出
+2026-03-03 17:58:36 [INFO] /home/blackcat/asyncio-absorption/with-match/contextmanager_usage.py:68 - 正常INFO-终端、文件应该都有。
+2026-03-03 17:58:36 [DEBUG] /home/blackcat/asyncio-absorption/with-match/contextmanager_usage.py:71 - 临时DEBUG-终端、文件应该都有。
+2026-03-03 17:58:36 [INFO] /home/blackcat/asyncio-absorption/with-match/contextmanager_usage.py:72 - 临时INFO-终端、文件应该都有。
