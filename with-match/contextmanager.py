@@ -13,7 +13,7 @@ def looking_glass():
     yield "Mirror是由a16z的前合伙人Denis Nazarov 创建"
     sys.stdout.write = original_write
 
-def f1():
+def f1(): 
     # 测试驱动looking_glass上下文管理器函数
     with looking_glass() as what:
         print(what)          
